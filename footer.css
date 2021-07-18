@@ -1,0 +1,42 @@
+footer{
+    display:flex;
+    flex-direction: row;
+    background-color: #44b;
+    padding: 1rem;
+    font-family: 'Dosis';
+}
+
+section{
+    margin-right: 1em;
+    display:flex;
+    flex-direction: column;
+
+}
+
+section:last-child{
+    margin-right:0px;
+    
+
+}
+
+footer h2{
+    color:white;
+    border-bottom: solid white 2px;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 2px;
+}
+
+section a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    margin-bottom: 5px;
+    font-size: .8rem;
+
+}
+
+section a:hover{
+    border-bottom: solid white 1px;
+    margin-bottom: 4px;
+}

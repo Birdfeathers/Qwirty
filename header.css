@@ -1,0 +1,100 @@
+
+.main-nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkblue;
+    
+}
+
+.main-nav a{
+    color:white;
+    font-family: 'Dosis';
+    background-color: darkblue;
+    padding: 3px;
+    
+}
+
+ul.full-width{
+    display:none;
+}
+
+ul.short-width{
+    display:flex;
+
+}
+
+ul{
+    list-style-type:none;
+}
+
+.sub-nav{
+
+    display:flex;
+    flex-direction: row;
+}
+
+.nav-list{
+    display:flex;
+    flex-direction:row;
+}
+
+.nav-list li{
+    padding:5px;
+    border-right: solid white 1px;
+}
+
+.nav-list li:last-of-type{
+    border:none;
+}
+
+.sub-nav .search-form{
+    display:flex;
+    flex-grow:1;
+    
+}
+
+.search-form input{
+    flex-grow:1;
+    margin: 15px 0px 15px 30px;
+    border:none;
+    padding: 10px;
+    box-shadow: 2px 2px blue;
+}
+
+.company-name{
+    color:blue;
+    font-size: x-large;
+    font-family: 'URW Chancery L';
+    margin: 20px;
+}
+
+.credit-offer{
+    display:flex;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: 'Dosis';
+    margin: 15px;
+    border: solid black 1px;
+    align-items: center;
+    padding: 5px;
+}
+
+button{
+    border: none;
+    background-color: blue;
+    margin: 15px 0px 13px 0px;
+    color:white;
+}
+
+@media screen and (min-width: 768px)
+{
+    ul.full-width{
+        display:flex;
+    }
+
+    ul.short-width{
+        display:none;
+    }
+}

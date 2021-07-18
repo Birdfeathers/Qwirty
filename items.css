@@ -1,0 +1,52 @@
+
+
+.items{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: calc(100vw - 276px);
+    flex-wrap:wrap;
+    font-family: 'Open Sans';
+    
+}
+
+.item{
+    display:flex;
+    flex-direction:column;
+    box-shadow: 10px 5px 5px gray;
+   flex: 1 0 200px;
+   margin-bottom: 12px;
+   margin-right:12px;
+}
+
+.item-name{
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: medium;
+    
+    
+}
+
+.fact-line{
+    background-color: blue;
+    color:white;
+}
+
+.add-item{
+    background-color: darkblue;
+    color:white;
+    border-radius:40%;
+}
+
+@media screen and (max-width: 768px)
+{
+    .item{
+        font-size: 1.3em;
+        flex-basis:100%;
+        flex-direction:column;
+    }
+}
